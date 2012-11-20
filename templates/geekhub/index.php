@@ -154,7 +154,7 @@ else
             <?php if ($item->note=="home"): ?>
                 <span class="line"></span>
                 <h4 class="registration">Нажаль, реєстрацію на другий сезон вже зачинено. Чекаємо на Вас наступного року!</h4>
-                <img src="images/splash.png">
+                <img src="http://geekhub.ck.ua/images/splash.png">
             <?php endif; ?>
 
 
