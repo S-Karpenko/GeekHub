@@ -1,0 +1,53 @@
+/**
+ * Main stylesheet
+ *
+ * @package         NoNumber Framework
+ * @version         12.11.7
+ *
+ * @author          Peter van Westen <peter@nonumber.nl>
+ * @link            http://www.nonumber.nl
+ * @copyright       Copyright © 2012 NoNumber All Rights Reserved
+ * @license         http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ */
+
+span.nn_code {
+	font-family: monospace;
+	font-size: 12px;
+	color: #666666;
+}
+input.nn_codefield {
+	font-family: monospace;
+	font-size: 2em;
+	padding: 2px 5px;
+	text-align: center;
+}
+
+div.nn_well {
+	padding-bottom: 3px;
+}
+div.nn_well h4 {
+	margin-top: 6px;
+}
+div.nn_well.alert-success,
+div.nn_well.alert-error {
+	color: #333;
+}
+.nn_btn-ignore.btn-danger.active {
+	color: #333;
+	text-shadow: none;
+	background-color: #e6e6e6;
+	background-color: #d9d9d9 \9;
+}
+.nn_btn-exclude.btn-success.active {
+	background-color: #bd362f;
+	*background-color: #a9302a;
+	background-color: #942a25 \9;
+}
+textarea.nn_textarea {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.nn_assignmentselection-header {
+	margin-left: 8px;
+}

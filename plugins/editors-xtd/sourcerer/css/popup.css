@@ -1,0 +1,40 @@
+/**
+ * Sourcerer editor button popup stylesheet
+ *
+ * @package         Sourcerer
+ * @version         4.0.2
+ *
+ * @author          Peter van Westen <peter@nonumber.nl>
+ * @link            http://www.nonumber.nl
+ * @copyright       Copyright © 2012 NoNumber All Rights Reserved
+ * @license         http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ */
+
+div.container-main {
+	padding-bottom: 10px;
+}
+div.src_editor {
+	height: 370px;
+	margin-bottom: 10px;
+	resize: vertical;
+	overflow: auto;
+}
+div.src_editor .CodeMirror-wrapping {
+	height: 100% !important;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+i.icon-sourcetags:before {
+	content: "1";
+}
+i.icon-nosourcetags:before {
+	content: "2";
+}
+i.icon-tagstyle:before {
+	content: "3";
+}
+i.icon-tagstylebrackets:before {
+	content: "4";
+}
