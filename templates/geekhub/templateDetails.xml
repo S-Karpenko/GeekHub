@@ -17,7 +17,6 @@
 		<folder>html</folder>
 		<folder>images</folder>
         <folder>img</folder>
-        <folder>modules</folder>
 	</files>
 	<positions>
 		<position>debug</position>
